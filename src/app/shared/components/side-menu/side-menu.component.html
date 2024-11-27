@@ -1,3 +1,4 @@
+
 <h2>Páginas</h2>
 <hr>
 
@@ -6,10 +7,10 @@
 <ul class="list-group">
   <li *ngFor="let item of reactiveMenu"
     class="list-group-item"
-    [routerLink]="[item.route]"
+    [routerLink]="[ item.route ]"
     routerLinkActive="active"
   >
-    {{item.title}}
+    {{ item.title }}
   </li>
 </ul>
 
@@ -18,9 +19,9 @@
 <ul class="list-group">
   <li *ngFor="let item of authMenu"
     class="list-group-item"
-    [routerLink]="[item.route]"
+    [routerLink]="[ item.route ]"
     routerLinkActive="active"
   >
-    {{item.title}}
+    {{ item.title }}
   </li>
 </ul>
